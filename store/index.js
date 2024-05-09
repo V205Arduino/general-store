@@ -11,8 +11,34 @@ const app = new SlackApp({
 let bag
 
 const canSell = {
-  'Fancy Pants': 30,
-  'Cake': 50
+  'Lumber': 10,
+  'Knitting Needles': 14,
+  'Knife': 20,
+  'Axe': 15,
+  'Saw':15,
+  'Anvil':20,
+  'Furnace':20,
+  'Glue':15,
+  'Wheel':15,
+  'Spinning Wheel':25,
+  'Pot':15,
+  'Glass':15,
+  'Chisel':15,
+  'Range':25,
+  'Firewood':10,
+  'Fishing Rod': 12,
+  'Pickaxe':15,
+  'Stone Mill':20,
+  'Loom':25,
+  'Vessel':12,
+  'Rolling Mill':30,
+  'Shovel':15,
+  'Scythe':15,
+  'Trowel':15,
+  'File':15,
+  'Ladder':15,
+  'Lapidary Wheel':25,
+  'Shears':15,
 }
 
 const showStore = async (slack, thread) => {
