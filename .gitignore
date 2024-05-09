@@ -2,3 +2,4 @@
 node_modules
 analytics.csv
 credentials.json
+store/.env
